@@ -36,7 +36,7 @@ export default function Home() {
               <p className='my-6 text-sm sm:text-base tracking-wide max-w-[500px] text-neutral-300/80 leading-[25px] sm:leading-[30px]'>
                 I am working on also learning React, Next.js, Javascript, THML, and CSS.
               </p>
-              <a className='w-full bg-neutral-800 rounded hover:bg-neutral-700 transition-colors flex items-center font-medium gap-x-2 py-2 px-4 max-w-[500px] justify-center' href='mailto:skyhancloud+bencan.net@gmail.com'>
+              <a className='w-full bg-neutral-800 rounded hover:bg-neutral-700 transition-colors flex items-center font-medium gap-x-2 py-2 px-4 max-w-[500px] justify-center' href='mailto:dulunatatolga@gmail.com'>
                 <LuMail />
                 dulunatatolga@gmail.com
               </a>
