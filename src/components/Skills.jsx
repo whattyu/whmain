@@ -21,12 +21,12 @@ export default function Skills() {
         <div className='flex flex-col gap-y-2 items-center'>
           <h3 className='text-lg font-medium text-neutral-500 flex items-center gap-x-2'>
             <LuCode2 />
-            Kullandıklarım
+            What I use
             <LuArrowDown size={14} className='animate-bounce' />
           </h3>
 
           <p className='text-sm tracking-wide max-w-[500px] text-neutral-300/80 leading-[30px] text-center'>
-            here is the programing languages that I know
+            Here are the programming languages that I use
           </p>
         </div>
 
