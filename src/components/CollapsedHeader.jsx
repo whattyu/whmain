@@ -27,7 +27,7 @@ export default function NotCollapsedHeader() {
             if (menuIsOpen) closeMenu();
           }}>
             <LuBox />
-            bencan.net
+            whmain
           </Link>
 
           <div className="w-max h-full gap-x-2.5 items-center text-sm hidden collapse-header:flex">
@@ -42,7 +42,7 @@ export default function NotCollapsedHeader() {
           <div className="flex items-center gap-x-2">
             <a className="w-max h-full flex items-center gap-x-1 text-sm px-3 py-1 bg-neutral-700/60 hover:bg-neutral-700 transition-colors rounded-3xl" href='mailto:skyhancloud+bencan.net@gmail.com'>
               <LuMail />
-              Bana Ulaş
+              Contact Me
             </a>
             
             <button className="w-max h-full items-center gap-x-1 text-sm px-2 py-1.5 bg-neutral-700/60 hover:bg-neutral-700 transition-colors rounded-full collapse-header:hidden flex" onClick={toggleMenu}>
