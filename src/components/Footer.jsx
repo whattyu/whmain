@@ -14,10 +14,6 @@ export default function Footer() {
             </Link>
           ))}
         </div>
-
-        <Link href='https://github.com/chimpdev/bencan.net' className='flex flex-row gap-x-1 items-center text-xs sm:text-sm text-neutral-500 hover:text-neutral-300 transition-all duration-300 ease-in-out'>
-          Bu site <LuGithub className='sm:inline-block hidden'/> GitHub'da açık kaynak olarak bulunmaktadır.
-        </Link>
       </div>
     </div>
   );
