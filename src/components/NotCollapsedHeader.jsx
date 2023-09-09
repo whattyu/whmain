@@ -33,7 +33,7 @@ export default function NotCollapsedHeader() {
           
           <a className="w-max h-full flex items-center gap-x-1 text-sm px-3 py-1 bg-neutral-700/60 hover:bg-neutral-700 transition-colors rounded-3xl" href='mailto:skyhancloud+bencan.net@gmail.com'>
             <LuMail />
-            Bana Ulaş
+            Contact Me
           </a>
 
         </div>
