@@ -22,7 +22,7 @@ export default function Experiences() {
         <div className='flex flex-col gap-y-2 items-center mb-8'>
           <h3 className='text-lg font-medium text-neutral-500 flex items-center gap-x-2'>
             <LuLayoutTemplate />
-            Tecrübelerim
+            Experiences
             <LuArrowDown size={14} className='animate-bounce' />
           </h3>
 
