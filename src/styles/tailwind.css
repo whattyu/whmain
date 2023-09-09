@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .header-item {
+    @apply cursor-pointer hover:opacity-70 transition-opacity flex items-center gap-x-1.5
+  }
+
+  .social-media-button {
+    @apply p-2 rounded-full bg-neutral-800 hover:bg-neutral-700 transition-colors
+  }
+}
