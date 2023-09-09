@@ -24,10 +24,10 @@ export default function ExperienceItem({ data, index }) {
           <Image src={data.logo} alt='' width={32} height={32} className='rounded-full' />
         </div>
 
-        {!data.endYear && <span className='text-xs bg-neutral-700 text-white rounded px-1.5 py-0.5 block sm:hidden w-max z-[2] mt-3'>Devam Ediyor</span>}
+        {!data.endYear && <span className='text-xs bg-neutral-700 text-white rounded px-1.5 py-0.5 block sm:hidden w-max z-[2] mt-3'>Still Continues</span>}
 
         <h1 className='tracking-tight font-semibold text-neutral-200 text-sm sm:text-base z-[2] mt-2 sm:mt-5 flex flex-row items-center flex-wrap'>
-          {data.title} {data.endYear ? '' : (<span className='text-xs bg-neutral-700 text-white rounded px-1.5 py-0.5 ml-2 hidden sm:block'>Devam Ediyor</span>)}
+          {data.title} {data.endYear ? '' : (<span className='text-xs bg-neutral-700 text-white rounded px-1.5 py-0.5 ml-2 hidden sm:block'>Still Continues</span>)}
         </h1>
 
         <span className='text-xs text-neutral-500 mt-1.5 z-[2]'>
