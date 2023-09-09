@@ -9,7 +9,7 @@ import Experiences from '../components/Experiences';
 import Skills from '../components/Skills';
 import Footer from '../components/Footer';
 import { useMedia } from 'react-use';
-import { FaDiscord, FaGithub, FaInstagram } from 'react-icons/fa';
+import { FaDiscord, FaGithub, FaInstagram, FaSpotify, FaSteam } from 'react-icons/fa';
 import Link from 'next/link';
 import Head from 'next/head';
 
@@ -52,6 +52,14 @@ export default function Home() {
 
                 <Link href='https://discord.gg/J4wDA93rjd' className='social-media-button' target='_blank'>
                   <FaDiscord size={20} />
+                </Link>
+
+                <Link href='https://open.spotify.com/user/cu57r3p9d29xbqdk4x31yip0o' className='social-media-button' target='_blank'>
+                  <FaSpotify size={20} />
+                </Link>
+
+                <Link href='https://steamcommunity.com/profiles/76561198875234467' className='social-media-button' target='_blank'>
+                  <FaSteam size={20} />
                 </Link>
               </div>
             </div>
