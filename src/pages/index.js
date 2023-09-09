@@ -34,12 +34,11 @@ export default function Home() {
               Hey there I'm Whattyu! <Twemoji className='twemoji !hidden sm:!inline-block'>👋</Twemoji>
               </h1>
               <p className='my-6 text-sm sm:text-base tracking-wide max-w-[500px] text-neutral-300/80 leading-[25px] sm:leading-[30px]'>
-                4 yılı aşkın bir süredir JavaScript ile Discord üzerinde bot geliştiriyorum.
-                Kendi kendimi geliştirebiliyor ve yeni şeyleri kolayca öğrenebiliyorum.
+                I am working on also learning React, Next.js, Javascript, THML, and CSS.
               </p>
               <a className='w-full bg-neutral-800 rounded hover:bg-neutral-700 transition-colors flex items-center font-medium gap-x-2 py-2 px-4 max-w-[500px] justify-center' href='mailto:skyhancloud+bencan.net@gmail.com'>
                 <LuMail />
-                skyhancloud@gmail.com
+                dulunatatolga@gmail.com
               </a>
 
               <div className='flex flex-row gap-x-2 mt-4'>
@@ -51,14 +50,14 @@ export default function Home() {
                   <FaGithub size={20} />
                 </Link>
 
-                <Link href='https://discord.gg/JzfqQ8wdtu' className='social-media-button' target='_blank'>
+                <Link href='https://discord.gg/J4wDA93rjd' className='social-media-button' target='_blank'>
                   <FaDiscord size={20} />
                 </Link>
               </div>
             </div>
 
             <div className='w-full h-full hidden xl:flex flex-col justify-center items-center'>
-              <Image src='/yeni w.jpg' width={isImageCollapsed ? 200 : 350} height={isImageCollapsed ? 200 : 350} className='rounded-full' />
+              <Image src='/w.jpg' width={isImageCollapsed ? 200 : 350} height={isImageCollapsed ? 200 : 350} className='rounded-full' />
             </div>
           </div>
         </div>
